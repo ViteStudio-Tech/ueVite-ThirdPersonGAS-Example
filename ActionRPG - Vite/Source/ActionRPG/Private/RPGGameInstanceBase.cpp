@@ -26,11 +26,11 @@ void URPGGameInstanceBase::Init()
 
 	UserSettings->SetViewDistanceQuality(0);
 	//UserSettings->SetAntiAliasingQuality(0);
-	UserSettings->SetPostProcessingQuality(1);
-	UserSettings->SetShadowQuality(0);
+	UserSettings->SetPostProcessingQuality(2);
+	UserSettings->SetShadowQuality(2);
 
 	UserSettings->SetTextureQuality(1);
-	UserSettings->SetVisualEffectQuality(1);
+	UserSettings->SetVisualEffectQuality(2);
 	UserSettings->SetFoliageQuality(0);
 	UserSettings->SetShadingQuality(1);
 
